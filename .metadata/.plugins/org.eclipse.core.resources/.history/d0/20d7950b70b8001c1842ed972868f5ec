@@ -1,0 +1,31 @@
+package stepDefinations;
+
+import java.io.IOException;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import resources.base;
+
+public class stepDefination extends base {
+	@Given("Initialize driver with chrome browser")
+	public void initialize_driver_with_chrome_browser() throws IOException {
+		driver = initializeDriver();
+	}
+	@Given("navigate to {string} site")
+	public void navigate_to_site(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+	@Given("click on Login link in Home page to landIn SignIn Page")
+	public void click_on_login_link_in_home_page_to_land_in_sign_in_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+	@When("userName enters {string} and {string} and logs in")
+	public void user_name_enters_and_and_logs_in(String string, String string2) {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+	@Then("verify user is successfully logged in")
+	public void verify_user_is_successfully_logged_in() {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+}

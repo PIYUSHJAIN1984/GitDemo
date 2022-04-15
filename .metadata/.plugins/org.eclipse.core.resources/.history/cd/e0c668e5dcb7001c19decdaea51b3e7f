@@ -1,0 +1,9 @@
+package stepDefinations;
+
+public class stepDefinations {
+	@Given(“^User is on netbanking landing page$”)
+	public void user_is_on_netbanking_landing_page(){
+		//write code to user naviagate to landing page
+		}
+
+}

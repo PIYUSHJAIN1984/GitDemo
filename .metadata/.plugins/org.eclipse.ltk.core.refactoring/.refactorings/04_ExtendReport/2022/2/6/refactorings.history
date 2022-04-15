@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pkg.Sec24_168_extentReports&apos; to &apos;Sec23_162_extentReports&apos;&#x0D;&#x0A;- Original project: &apos;4_ExtendReport&apos;&#x0D;&#x0A;- Original element: &apos;pkg.Sec24_168_extentReports&apos;&#x0D;&#x0A;- Renamed element: &apos;pkg.Sec23_162_extentReports&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sec24_168_extentReports&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;pkg{Sec24_168_extentReports.java[Sec24_168_extentReports" matchStrategy="1" name="Sec23_162_extentReports" qualified="false" references="true" similarDeclarations="false" stamp="1644024020098" textual="false" version="1.0"/>
+</session>

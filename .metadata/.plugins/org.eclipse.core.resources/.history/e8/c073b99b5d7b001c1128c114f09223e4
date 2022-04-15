@@ -1,0 +1,3 @@
+module TestNG_Project {
+	requires org.testng;
+}

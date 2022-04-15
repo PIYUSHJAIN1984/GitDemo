@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="24" passed="20" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-26T07:49:05 IST" name="Suite" finished-at="2022-01-26T07:49:05 IST" duration-ms="148">
+    <groups>
+      <group name="Smoke">
+        <method signature="Sec19_139_testNG2.test4()[pri:0, instance:test.Sec19_139_testNG2@759d26fb]" name="test4" class="test.Sec19_139_testNG2"/>
+        <method signature="Sec19_139_testNG.test3()[pri:0, instance:test.Sec19_139_testNG@3fb1549b]" name="test3" class="test.Sec19_139_testNG"/>
+        <method signature="Sec19_139_testNG3.test5()[pri:0, instance:test.Sec19_139_testNG3@1b2abca6]" name="test5" class="test.Sec19_139_testNG3"/>
+        <method signature="Sec19_139_testNG3.webLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@1b2abca6]" name="webLoginCarLoan" class="test.Sec19_139_testNG3"/>
+        <method signature="Sec19_139_testNG2.test4()[pri:0, instance:test.Sec19_139_testNG2@316bcf94]" name="test4" class="test.Sec19_139_testNG2"/>
+        <method signature="Sec19_139_testNG3.test5()[pri:0, instance:test.Sec19_139_testNG3@6404f418]" name="test5" class="test.Sec19_139_testNG3"/>
+        <method signature="Sec19_139_testNG3.webLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@6404f418]" name="webLoginCarLoan" class="test.Sec19_139_testNG3"/>
+        <method signature="Sec19_139_testNG.test3()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" name="test3" class="test.Sec19_139_testNG"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-01-26T07:49:05 IST" name="Te st1" finished-at="2022-01-26T07:49:05 IST" duration-ms="38">
+      <class name="test.Sec19_139_testNG3">
+        <test-method signature="AppLoginCarLoan()[pri:0, instance:test.Sec19_139_testNG3@1b2abca6]" started-at="2022-01-26T07:49:05 IST" name="AppLoginCarLoan" finished-at="2022-01-26T07:49:05 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLoginCarLoan -->
+        <test-method signature="test5()[pri:0, instance:test.Sec19_139_testNG3@1b2abca6]" started-at="2022-01-26T07:49:05 IST" name="test5" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="webLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@1b2abca6]" started-at="2022-01-26T07:49:05 IST" name="webLoginCarLoan" finished-at="2022-01-26T07:49:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[piyushmnfi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- test.Sec19_139_testNG3 -->
+    </test> <!-- Te st1 -->
+    <test started-at="2022-01-26T07:49:05 IST" name="Personal Loan" finished-at="2022-01-26T07:49:05 IST" duration-ms="56">
+      <class name="test.Sec19_139_testNG">
+        <test-method signature="test1()[pri:0, instance:test.Sec19_139_testNG@3fb1549b]" started-at="2022-01-26T07:49:05 IST" name="test1" finished-at="2022-01-26T07:49:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test6()[pri:0, instance:test.Sec19_139_testNG@3fb1549b]" started-at="2022-01-26T07:49:05 IST" name="test6" finished-at="2022-01-26T07:49:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test3()[pri:0, instance:test.Sec19_139_testNG@3fb1549b]" started-at="2022-01-26T07:49:05 IST" name="test3" finished-at="2022-01-26T07:49:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test7()[pri:0, instance:test.Sec19_139_testNG@3fb1549b]" started-at="2022-01-26T07:49:05 IST" name="test7" finished-at="2022-01-26T07:49:05 IST" depends-on-methods="test.Sec19_139_testNG.test6" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:test.Sec19_139_testNG@3fb1549b]" started-at="2022-01-26T07:49:05 IST" name="lastExecution" finished-at="2022-01-26T07:49:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- test.Sec19_139_testNG -->
+      <class name="test.Sec19_139_testNG2">
+        <test-method is-config="true" signature="preRequiste()[pri:0, instance:test.Sec19_139_testNG2@759d26fb]" started-at="2022-01-26T07:49:05 IST" name="preRequiste" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequiste -->
+        <test-method signature="test2()[pri:0, instance:test.Sec19_139_testNG2@759d26fb]" started-at="2022-01-26T07:49:05 IST" name="test2" finished-at="2022-01-26T07:49:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()[pri:0, instance:test.Sec19_139_testNG2@759d26fb]" started-at="2022-01-26T07:49:05 IST" name="test4" finished-at="2022-01-26T07:49:05 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.Sec19_139_testNG2.test4(Sec19_139_testNG2.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- test.Sec19_139_testNG2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-01-26T07:49:05 IST" name="Test3" finished-at="2022-01-26T07:49:05 IST" duration-ms="36">
+      <class name="test.Sec19_139_testNG">
+        <test-method is-config="true" signature="firstSuite()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="firstSuite" finished-at="2022-01-26T07:49:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstSuite -->
+        <test-method signature="test1()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="test1" finished-at="2022-01-26T07:49:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test6()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="test6" finished-at="2022-01-26T07:49:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test3()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="test3" finished-at="2022-01-26T07:49:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test7()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="test7" finished-at="2022-01-26T07:49:05 IST" depends-on-methods="test.Sec19_139_testNG.test6" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="lastExecution" finished-at="2022-01-26T07:49:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+        <test-method is-config="true" signature="lastSuite()[pri:0, instance:test.Sec19_139_testNG@53ce1329]" started-at="2022-01-26T07:49:05 IST" name="lastSuite" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastSuite -->
+      </class> <!-- test.Sec19_139_testNG -->
+      <class name="test.Sec19_139_testNG2">
+        <test-method is-config="true" signature="preRequiste()[pri:0, instance:test.Sec19_139_testNG2@316bcf94]" started-at="2022-01-26T07:49:05 IST" name="preRequiste" finished-at="2022-01-26T07:49:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequiste -->
+        <test-method signature="test2()[pri:0, instance:test.Sec19_139_testNG2@316bcf94]" started-at="2022-01-26T07:49:05 IST" name="test2" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()[pri:0, instance:test.Sec19_139_testNG2@316bcf94]" started-at="2022-01-26T07:49:05 IST" name="test4" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.Sec19_139_testNG2.test4(Sec19_139_testNG2.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- test.Sec19_139_testNG2 -->
+      <class name="test.Sec19_139_testNG3">
+        <test-method signature="AppLoginCarLoan()[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="AppLoginCarLoan" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLoginCarLoan -->
+        <test-method signature="mobileLoginCarLoan()[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="mobileLoginCarLoan" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method signature="mobileLoginCarLoan1(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="mobileLoginCarLoan1" data-provider="getData" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan1 -->
+        <test-method signature="mobileLoginCarLoan1(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="mobileLoginCarLoan1" data-provider="getData" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passowrd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan1 -->
+        <test-method signature="mobileLoginCarLoan1(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="mobileLoginCarLoan1" data-provider="getData" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan1 -->
+        <test-method signature="test5()[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="test5" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="webLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Sec19_139_testNG3@6404f418]" started-at="2022-01-26T07:49:05 IST" name="webLoginCarLoan" finished-at="2022-01-26T07:49:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[piyushmnfi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- test.Sec19_139_testNG3 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

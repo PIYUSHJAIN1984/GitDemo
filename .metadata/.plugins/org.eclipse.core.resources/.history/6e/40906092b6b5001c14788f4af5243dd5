@@ -1,0 +1,32 @@
+
+public class Sec33_284_1_StaticVar {
+
+	// Instance variables as they are tied up to individual objects
+	//They change from object to object
+	String name;
+	String address;
+	
+	static String cityName = "Bangalore";
+
+	public Sec33_284_1_StaticVar(String name, String address) {
+
+		// Here name, address, cityName are local variables
+		//this points to current class instance
+		this.name = name;
+		this.address = address;
+	}
+	
+	public void getAddress() {
+		System.out.println(address + city);
+	}
+
+	public static void main(String[] args) {
+		Sec33_284_1_StaticVar obj = new Sec33_284_1_StaticVar("Bob", "123 dd");
+		Sec33_284_1_StaticVar obj1 = new Sec33_284_1_StaticVar("Bob1", "123 dd1");
+		
+		obj.getAddress();
+		obj1.getAddress();
+
+	}
+
+}

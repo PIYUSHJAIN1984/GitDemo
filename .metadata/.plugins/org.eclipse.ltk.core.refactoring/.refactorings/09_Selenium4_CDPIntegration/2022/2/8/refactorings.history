@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MobileTestEmulator&apos; to &apos;Sec30_231_MobileTestEmulator&apos;&#x0D;&#x0A;- Original project: &apos;9_Selenium4_CDPIntegration&apos;&#x0D;&#x0A;- Original element: &apos;MobileTestEmulator&apos;&#x0D;&#x0A;- Renamed element: &apos;Sec30_231_MobileTestEmulator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MobileTestEmulator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;{MobileTestEmulator.java[MobileTestEmulator" matchStrategy="1" name="Sec30_231_MobileTestEmulator" qualified="false" references="true" similarDeclarations="false" stamp="1645243941102" textual="false" version="1.0"/>
+</session>

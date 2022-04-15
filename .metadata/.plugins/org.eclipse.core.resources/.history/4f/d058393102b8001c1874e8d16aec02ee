@@ -1,0 +1,11 @@
+package cucumberOptions;
+
+@Runwith(Cucumber.class)
+@CucumberOptions(
+features=”package path”,
+glue=’stepDefinations)
+
+
+public class TestRunner {
+
+}

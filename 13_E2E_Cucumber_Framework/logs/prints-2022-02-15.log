@@ -1,0 +1,6 @@
+08:07:14.085 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9a2e9e28bde7fc94
+08:07:14.148 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+08:07:20.376 [TestNG-tests-1] INFO  resources.base - navigated to url
+08:07:20.709 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+08:07:22.439 [TestNG-tests-2] INFO  resources.base - test1
+08:07:24.282 [TestNG-tests-2] INFO  resources.base - test2

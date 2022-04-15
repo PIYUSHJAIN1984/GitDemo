@@ -1,0 +1,9 @@
+
+public class Sec34_295_ArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList a = new ArrayList();
+	}
+
+}

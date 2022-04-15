@@ -1,0 +1,27 @@
+package Sec34_Collections;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class Sec34_300_HashMap {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> hm= new HashMap<Integer, String>();
+		hm.put(0, "Ram");
+		hm.put(1, "bye");
+		hm.put(2, "bye1");
+		hm.put(3, "bye2");
+		
+		System.out.println(hm.get(1));
+Set i = hm.entrySet();
+	Iterator it = i.iterator();	
+	
+	while(it.hasNext()) {
+	
+		System.out.println(a.next());
+	}
+	}
+
+}

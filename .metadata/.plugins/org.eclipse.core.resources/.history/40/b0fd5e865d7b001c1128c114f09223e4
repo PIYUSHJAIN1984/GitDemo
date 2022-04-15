@@ -1,0 +1,9 @@
+
+public class Sec19_139_testNG {
+	
+	@test
+	public void test1() {
+		
+	}
+
+}

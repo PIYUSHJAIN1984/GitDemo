@@ -1,0 +1,14 @@
+package Sec34_Collections;
+
+import java.util.HashSet;
+
+public class Sec34_298_Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> hs=new HashSet();
+
+	}
+
+}

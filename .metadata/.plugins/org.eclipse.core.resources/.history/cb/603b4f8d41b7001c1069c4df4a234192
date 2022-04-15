@@ -1,0 +1,10 @@
+package Sec34_Collections;
+
+public class Sec34_300_HashMap {
+
+	public static void main(String[] args) {
+		HashMap hm= new HashMap();
+
+	}
+
+}

@@ -1,0 +1,26 @@
+Feature: Login into application
+
+  Scenario: Positive test validating login
+    Given Initialize driver with chrome browser 
+    And navigate to "QAClickAcademy" site
+    And click on Login link in Home page to landIn SignIn Page
+    when userName enters "username" and "password" and logs in
+    Then verify user is successfully logged in
+    
+    
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

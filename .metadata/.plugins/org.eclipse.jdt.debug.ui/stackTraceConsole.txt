@@ -1,0 +1,10 @@
+io.cucumber.junit.UndefinedStepException: The step 'userName enters piyushmnit@gmail.com and Aabha@123 and logs in' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("userName enters piyushmnit@gmail.com and Aabha@{int} and logs in")
+public void user_name_enters_piyushmnit_gmail_com_and_aabha_and_logs_in(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

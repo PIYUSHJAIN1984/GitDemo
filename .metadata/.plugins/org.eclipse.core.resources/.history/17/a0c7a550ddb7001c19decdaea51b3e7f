@@ -1,0 +1,23 @@
+package stepDefinations;
+
+import io.cucumber.java.en.Given;
+
+public class stepDefinations {
+	@Given("^User is on netbanking landing page$")
+	public void user_is_on_netbanking_landing_page(){
+		//write code to user naviagate to landing page
+		}
+	
+	@When("^user login into application with username and password$")
+	public void user_login(){
+		//write code to user naviagate to landing page
+		}
+	
+	@Given("^User is on netbanking landing page$")
+	public void user_is_on_netbanking_landing_page(){
+		//write code to user naviagate to landing page
+		}
+	
+	
+
+}
